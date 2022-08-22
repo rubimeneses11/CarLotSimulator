@@ -6,6 +6,8 @@ namespace CarLotSimulator
     {
         public Car()
         {
+            //everytime a new car is created it will incrememnt the number of cars by 1
+            CarLot.numberOfCars++;
         }
 
         public Car (int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable)

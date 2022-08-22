@@ -10,6 +10,10 @@ namespace CarLotSimulator
         }
 
         public List<Car> listOfCars = new List<Car>();
+
+        //create a static field called numberOfCars
+        public static int numberOfCars = 1;
     }
+
 }
 

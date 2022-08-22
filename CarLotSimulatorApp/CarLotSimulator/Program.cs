@@ -62,8 +62,11 @@ namespace CarLotSimulator
 
             //Create a CarLot class
             //It should have at least one property: a List of cars
-            
+
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
+
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
+
             foreach (var car in lot.listOfCars)
             {
                 Console.WriteLine($"Year: {car.Year} Make: {car.Make} Model: {car.Model}");
